@@ -1,0 +1,105 @@
+.backImg {
+    width: 300px;
+    height: 300px;
+    background-image: url("abt.jpg");
+    background-size: 100% 100%;
+}
+
+.b2 {
+    width: 100%;
+    height: 50vh;
+    background-image: url("cod.jpg");
+    float: left;
+}
+
+.b3 {
+    width: 100%;
+    height: 50vh;
+    background-image: url("h.jpg");
+    background-size: 100% 100%;
+    float: left;
+}
+
+body {
+    border-style: solid;
+    border: 1px black;
+    background-color: black;
+    background-size: 100% 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+h2 {
+    color: white;
+    text-align-last: center;
+    font-size: 40px;
+}
+
+h3 {
+    color: black;
+    text-align-last: center;
+    font-size: 40px;
+}
+
+h4 {
+    text-align: center;
+}
+
+img {
+    padding: 50px;
+    float: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.plc {
+    font-size: 30px;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 36px;
+    line-height: 36px;
+    background-color: #000;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    padding: 0 28px;
+    text-decoration: none;
+}
+
+.contact-link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #f5ba09;
+    border-radius: 0.5rem;
+}
+
+a:hover,
+.active a {
+    background-color: black;
+}
